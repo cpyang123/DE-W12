@@ -1,3 +1,5 @@
+[![Python Application Test with Github Actions by Peter](https://github.com/cpyang123/DE-W12/actions/workflows/test.yml/badge.svg)](https://github.com/cpyang123/DE-W12/actions/workflows/test.yml)
+
 # DE-W12 Squirrels Project in Docker Container
 
 ![Squirrels Project](image.png)

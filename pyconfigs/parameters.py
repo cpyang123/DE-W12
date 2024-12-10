@@ -15,7 +15,9 @@ def main(sqrl: ParametersArgs) -> None:
     The factory methods available are:
     - CreateSimple, CreateWithOptions, CreateFromSource
     """
-
+    if sqrl:
+        print("Initializing Parameters")
+    
     ## Example of creating SingleSelectParameter and specifying each option by code
     group_by_options = [
         po.SelectParameterOption("g0", "Transaction", columns=["masked_id", "date", "description"], aliases=["id", "date", "description"]),
